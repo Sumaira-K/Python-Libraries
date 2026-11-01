@@ -82,3 +82,15 @@ Thumbs.db
 *.swp
 *.tmp
 *.temp
+# Virtual environments
+.venv/
+venv/
+
+# Saved TensorFlow models
+*.keras
+*.h5
+*.pb
+my_finetuned_sentiment_model/
+
+# Model checkpoints
+checkpoints/
